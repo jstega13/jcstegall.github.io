@@ -24,6 +24,10 @@ img{
     width:88px;
     height:31px
 }
+.profile {
+    width: 400px;
+    height: auto; 
+}
 figure {
     text-align: center;
     font-style: italic;
