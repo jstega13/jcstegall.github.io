@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Firm Website</title>
+    <style>
+         * {
+            background-color: #344966;
+            color: #B4CDED;
+            text-align: center;
+         }
+         html, body { /*sends the footer to the bottom by taking up the whole page */
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            }       
+         img {
+            width: 75px;
+            height: auto;
+         }
+         header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+         }
+         main {
+            max-width: 500px;
+            margin: auto;
+            text-align: left;
+            flex: 1;
+         }
+         ul {
+            list-style-type: square;
+            padding-left: 40px; 
+            list-style-position: inside;
+        }
+         ul li {
+            margin: 20px 0;
+        }
+        .contact p{
+            font-weight: bold;
+            margin: 5px;
+        }
+        footer p{
+            margin:5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DevJS</h1>
+        <img src="devjs.png" alt="devjs logo">
+    </header>
+
+
+<main>
+    <h2>DevJS Services</h2>
+    <p>Here at DevJS we deliver innovative solutions to your developing needs</p>
+    
+    <ul>
+        <li>Innovative and customized designs tailored to your brand.</li>
+        <li>Seamless user experiences that drive engagement.</li>
+        <li>Mobile-first approach for optimal performance on all devices.</li>
+        <li>SEO-friendly development to boost your online presence.</li>
+        <li>Lightning-fast websites with optimized performance.</li>
+        <li>Dedicated client support and seamless communication.</li>
+        <li>Branding solutions that set you apart from competitors.</li>
+        <li>Data-driven strategies to maximize conversions.</li>
+    </ul>
+    <p>We’d love to bring your vision to life! Whether you need a stunning website, an intuitive app, or a full-scale branding solution, DevJS is here to help.</p>
+       <section class="contact"> 
+        <p>Contact Us</p>
+        <p>Email: DevJS@developer.com</p>
+        <p>Phone: (704)215-8455</p>
+        <p>Address: 123 developer st, Charlotte, NC, 28201</p>
+       </section>
+       
+</main>
+
+<footer>
+
+    <p>Innovate. Design. Develop. Your Vision, Our Code.</p>
+    <p>Designed by DevJS</p>
+
+    <a href="https://validator.w3.org/ check?uri=referer" id="validation-link-html">
+        <img src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
+       </a>
+       <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation-link-css">
+        <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+         </a>
+         
+</footer>
+<script src="../scripts/scripts.js"></script> 
+</body>
+</html>
