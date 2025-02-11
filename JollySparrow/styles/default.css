@@ -1,0 +1,36 @@
+*{
+    text-align: center;
+    margin: 5;
+    padding: 0;
+}
+header{
+    padding-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+main{
+    color:grey;
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    display: flex;
+}
+footer{
+    font-size: 15px;
+    font-style:italic;
+    position:absolute;
+    bottom:0;
+    
+}
+main p {
+    font-size: 30px;
+}
+nav {
+    font-size: 25px;
+    flex-direction: column;
+    display: flex;
+    margin-left: 100px;
+}
+
+    
